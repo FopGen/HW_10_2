@@ -10,6 +10,7 @@ public class Main {
         File outputFile = new File("user.json");
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         FileWriter fw = new FileWriter(outputFile);
+
         scanner.nextLine();
 
         while(scanner.hasNext()){
